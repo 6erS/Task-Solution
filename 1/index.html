@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        html {
+            background-color: rgb(30, 30, 30);
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            padding: 50px 0;
+        }
+        .converter {
+            margin-bottom: 30px;
+        }
+        p {
+            margin: 40px;
+        }
+    </style>
+    <script type="module" src="/scripts/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task #1</title>
+</head>
+
+<body>
+    <div class="converter">
+        <p>Converter</p>
+        <div>
+            <input id="unit" type="text" placeholder="Enter the unit" />
+            <input id="convertValue" type="text" placeholder="Enter the value" />
+            <input id="convertTo" type="text" placeholder="Enter the 'convert_to'" />
+        </div>
+        <button id="convertButton">CONVERT</button>
+    </div>
+    <div class="rulesChanger">
+        <p>Add the rule</p>
+        <div>
+            <input id="dimension" type="text" placeholder="Enter the dimension" />
+            <input id="coefficient" type="text" placeholder="Enter the coefficient" />
+        </div>
+        <button id="addTheRuleButton">ADD</button>
+    </div>
+</body>
+
+</html>
